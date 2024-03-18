@@ -1,0 +1,157 @@
+/* styles.css */
+
+body {
+   font-family: "Georama", sans-serif;
+   background-color: #f0f0f0;
+}
+#servicios {
+   background-color: #00584C;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.servicios{
+	align-content: center;
+}
+
+#servicios h2 {
+	font-family:"Teko", sans-serif;
+    color:#FFFFFF;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	font-size: 48px;
+}
+
+#servicios h3 {
+	font-family:"Georama", sans-serif;
+    color:#B5B5B5;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	font-size: 26px;
+}
+
+#servicios p {
+	font-family:"Georama", sans-serif;
+    color:#FFFFFF;
+	margin-bottom: 40px;
+	font-size: 16px;
+}
+
+.icono-nuevo-color {
+	color:#B5B5B5;
+}
+
+#portafolio {
+	padding-top:  20px;
+	margin-bottom: 80px;
+}
+
+#header h1 {
+	font-family:"Teko", sans-serif;
+	 font-size: 100px;
+    color:#00584C;
+	text-transform: capitalize;
+}
+
+h2{
+	font-family:"Teko", sans-serif;
+    color:#00584C;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	font-size: 48px;
+}
+
+.navbar {
+    padding: 10px 0; 
+	background-color:#00584C;
+	
+}
+.navbar-nav .nav-link:hover {
+    opacity: 0.7; 
+    transition: opacity 0.3s ease; 
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; 
+}
+
+
+.btn-enviar {
+    background-color:#FFFFFF; 
+    color: #00584C; 
+    border:medium; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.btn-enviar:hover {
+    background-color: #00584C; 
+    color: #FFFFFF; 
+}
+
+ .progress-bar {
+            background-color: #B5B5B5;
+            border-radius: 10px;
+            height: 20px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background-color: #8D53ED;
+            height: 100%;
+            animation: progressFill 2s ease forwards;
+        }
+
+        @keyframes progressFill {
+            from {
+                width: 0;
+            }
+            to {
+                width:100;
+            }
+        }
+
+.owl-carousel {
+	overflow:scroll;
+    width: 1200px; 
+    height: 300px; 
+}
+
+.owl-nav {
+  display: none; 
+}
+
+.owl-dots {
+  display: none; 
+}
+
+.owl-carousel .item {
+    width: 400px; 
+    height: auto; 
+}
+
+.owl-carousel .item img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#contacto{
+	padding-bottom: 80px;
+}
+
+.sigueme{
+	text-align: right;
+}
+
+footer{
+	background-color: #8D53ED;
+	padding: 40px;
+}
+#sigueme a {
+    color: #000; 
+    text-decoration: none; 
+}
+
